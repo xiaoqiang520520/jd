@@ -232,20 +232,22 @@ nav ul li span{
     left:220px;
     
 }
-.bottom-nav ul li {
-    width:79px;
-    float:left;
-    text-align: center;
-    line-height: 40px;
-}
 
-.bottom-nav ul li a{
+
+
+.bottom-nav ul  a{
    
    /* display: block; */
     font-size:14px;
     color:#333333;
+    margin-left:16px;
 }
-.bottom-nav ul li span{
+.bottom-nav ul  a:hover{
+    color:#f10215;
+    
+}
+
+.bottom-nav ul  span{
     /* display:block; */
     width: 1px;
     font-size:10px;
@@ -255,7 +257,7 @@ nav ul li span{
 .mid-box{
     width:100%;
     height:480px;
-    background:yellow;
+    /* background:yellow; */
 }
 aside{
     width:190px;
@@ -310,7 +312,7 @@ img-box img{
     height:470px;
     margin-left:10px;
     margin-top:10px;
-    background:blue;
+    /* background:blue; */
     float:left;
     display: flex;
     flex-direction: column;
@@ -320,6 +322,309 @@ img-box img{
     width:190px;
     height:150px;
 }
+.jd-login{
+    width:190px;
+    height:470px;
+    /* background:green; */
+    float:right;
+    margin-top:10px;
+    position:relative;
+}
+.login-head{
+    width:190px;
+    height:80px;
+}
+.jd-login a img{
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+    position:absolute;
+    left:70px;
+    top:-5px;
+    z-index: 16;
+}
+.login-back{
+    background:#E3E1DF;
+    width:65px;
+    height:65px;
+    border-radius: 50%;
+    position:absolute;
+    left:65px;
+    top:-10px;
+    z-index: 15;
+    box-shadow:3px 6px 25px #c3c3c3;
+
+}
+.user-tips{
+    width:190px;
+    height:20px;
+    font-size:12px;
+    color:#888;
+    text-align:center;
+    line-height: 20px;
+    margin-top:65px;
+    font-family: Microsoft YaHei;
+}
+.login-head p{
+    width: 190px;
+    height:20px;
+    line-height: 20px;
+
+
+}
+.login-head p a{
+    /* text-decoration: none; */
+    font-size: 12px;
+    padding:0 2px;
+    color:#888;
+}
+.login-head p a:hover{
+    color:#f10215;
+
+}
+
+.login-head p a:first-child{
+    margin-left:70px;
+}
+.button-box{
+    width: 190px;
+    height:25px;
+    /* background:yellow; */
+    margin-top:10px;
+}
+.button-box a{
+    display:inline-block;
+    width: 70px;
+    height:25px;
+    border-radius: 13px;
+    font-size:12px;
+    box-shadow:6px 8px 20px rgba(45,45,45,0.15);
+    line-height:20px;
+    text-align: center;
+    margin: 5px;
+    background: #363634;
+    color: #e5d790;
+
+}
+.button-box a:first-child{
+    margin-left:16px;
+    color: #e43f3b;
+    background:none;
+}
+.news2{
+    width:190px;
+    height:131px;
+    /* background: purple; */
+}
+.news-head{
+    width:190px;
+    height:19px;
+    padding-top:8px;
+}
+.news-title{
+    width:52px;
+    height:13px;
+    font-size: 12px;
+    margin-left:15px;
+    float:left;
+    line-height:13px;
+
+}
+.news-more{
+    width:40px;
+    height:13px;
+    font-size:12px;
+    float:right;
+    color:#999;
+
+}
+.news-more:hover{
+    color:#666;
+
+}
+.news-more{
+    font-size:12px;
+    line-height:13px;
+}
+.news-list{
+    width:160px;
+    height:96px;
+    /* background:blue; */
+    margin:0 auto;
+    border-bottom: 1px solid #ebeaea;
+}
+.news-link span{
+    display:inline-block;
+    width:35px;
+    height: 16px;
+    font-size:12px;
+    color:#edfffb;
+    background-color: #90b0c6;
+    text-align: center;
+    line-height:16px;
+
+}
+.news-link{
+    display:inline-block;
+    width:160px;
+    height:16px;
+    white-space:nowrap;
+    overflow:hidden; 
+    text-overflow:ellipsis;
+    font-size:12px;
+    line-height:16px;
+}
+.news-link:hover{
+    color:#f10215;
+}
+.news-list li:nth-child(2) a span{
+    background-color: #e0b95a;
+}
+.news-list li:nth-child(3) a span{
+    background-color: #e47f7f;
+}
+.news-list li:nth-child(4) a span{
+    background-color: #e47f7f;
+}
+.login-foot{
+    width:168px;
+    height:165px;
+    /* background:yellow; */
+    padding:4px 11px 11px 11px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.login-foot a{
+    display:block;
+    width:42px;
+    height:51px;
+    /* background:purple; */
+    padding-top:6px;
+}
+.login-foot a:hover i{
+    color:#f10215;
+}
+.login-foot a:hover span{
+    color:#f10215;
+}
+
+.login-foot a i{
+    display:block;
+    width:20px;
+    height:20px;
+    margin:4px auto 0;
+    font-size:22px;
+    color:#999;
+    
+    text-align: center;
+}
+.login-foot a span{
+    display:block;
+    width:42px;
+    height:25px;
+    padding-bottom:2px;
+    font-size:12px;
+    text-align: center;
+    line-height: 25px;
+    color:#999;
+
+}
+.chart-find{
+    width:100%;
+    height:450px;
+    /* background:green; */
+    margin-top: 30px;
+}
+.chart-find ul li{
+    width:390px;
+    height:450px;
+    background:red;
+    margin-right:10px;
+    float:left;
+}
+.chart-find ul li:nth-child(3){
+    margin-right: 0;
+
+}
+.chart-head{
+    width:390px;
+    height:60px;
+    background:yellow;
+}
+.box-tit{
+    width:66px;
+    height:44px;
+    /* background:purple; */
+    float: left;
+    font-weight: normal;
+    color:#222;
+    font-size: 22px;
+    line-height:44px;
+    float: left;
+    margin-left:20px;
+    margin-right:5px;
+    
+}
+.iconGroup-{
+    display:block;
+    width:23px;
+    height:23px;
+    font-size:23px;
+    color:#e33333;
+    float: left;
+    margin-top:10px;
+   
+
+}
+.chart-head span{
+    display:block;
+    float: left;
+    font-size:14px;
+    width:112px;
+    height:20px;
+    color:#999;
+    line-height:20px;
+    margin:12px 0 0 10px;
+}
+.chart-nav{
+    width:390px;
+    height:34px;
+    background:green;
+}
+.chart-nav ul li{
+    width: 58px;
+    height:34px;
+    /* background: blueviolet; */
+    float:left;
+}
+.chart-nav ul li a{
+    color:#666;
+    font-size:12px;
+    text-align: center;
+    line-height: 34px;
+}
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
 
 
 
